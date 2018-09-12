@@ -8,6 +8,10 @@ public class HemläxaV36 {
 
 		Scanner input = new Scanner (System.in);
 		
+		System.out.println("Vad är ditt namn?");
+		
+		String namn = input.nextLine() ;
+		
+		System.out.println(namn);
 	}
-
 }
