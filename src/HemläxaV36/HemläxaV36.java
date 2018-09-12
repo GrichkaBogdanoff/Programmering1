@@ -13,5 +13,12 @@ public class HemläxaV36 {
 		String namn = input.nextLine() ;
 		
 		System.out.println(namn);
+		
+		System.out.println("Hur gammal är du");
+		
+		String ålder = input.nextLine();
+		
+		System.out.println(ålder);
+		
 	}
 }
