@@ -26,5 +26,14 @@ public class HemläxaV36 {
 		System.out.println("Vad är ditt telefonnummer?");
 		String telefonnummer = input.nextLine();
 		
+		System.out.println(namn);
+		System.out.println(ålder);
+		System.out.println(adress);
+		System.out.println(postnummer);
+		System.out.println(stad);
+		System.out.println(telefonnummer);
+		
+		System.out.println("Information");
+		System.out.println(namn + " " + ålder + " " + adress + " " + postnummer + " "+ stad + " "+ telefonnummer);
 	}
 }
