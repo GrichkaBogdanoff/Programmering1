@@ -85,5 +85,13 @@ public class HemuppgiftV37 {
 	if (tal10 < min) {
 		min = tal10;
 	}
+	
+	int summa = tal1 + tal2 + tal3 + tal4 + tal5 + tal6 + tal7 + tal8 + tal9 + tal10;
+	
+	System.out.println("Max: " + max);
+	System.out.println("Min: " + min);
+	System.out.println("Medel: " + summa/10);
+	
+	
 }}
 
